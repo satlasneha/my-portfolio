@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sneha | ECE Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#096e8a,#890c82);
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:rgba(0,0,0,0.3);
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero-content{
+    max-width:800px;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:4px solid #38bdf8;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+.hero span{
+    color:#38bdf8;
+}
+
+.hero h2{
+    color:#cbd5e1;
+    margin-bottom:15px;
+}
+
+.hero p{
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#38bdf8;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:#334155;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project{
+    background:#334155;
+    padding:20px;
+    border-radius:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+    <div class="logo">Sneha</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+
+        <!-- Add your photo -->
+        <img src="https://via.placeholder.com/180" alt="Profile">
+
+        <h1>Hello, I'm <span>Sneha</span></h1>
+
+        <h2>ECE 3rd Year Student</h2>
+
+        <p>
+            Passionate about Electronics, Communication Engineering,
+            Python Programming, IoT, Embedded Systems and Web Development.
+            Seeking opportunities to learn and contribute through innovative projects.
+        </p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center;">
+        I am a 3rd-year Electronics and Communication Engineering student
+        with interests in Embedded Systems, IoT, Python, and Web Technologies.
+        I enjoy solving problems and building practical applications.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Arduino</div>
+        <div class="skill">IoT</div>
+        <div class="skill">Embedded Systems</div>
+        <div class="skill">Communication Systems</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+        <div class="project">
+            <h3>Smart Attendance System</h3>
+            <p>Face Recognition based attendance management using Python.</p>
+        </div>
+
+        <div class="project">
+            <h3>IoT Home Automation</h3>
+            <p>Control home appliances remotely using IoT technology.</p>
+        </div>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio built with HTML and CSS.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: sneha@example.com</p>
+    <p>Phone: +91 6302113651</p>
+    <p>LinkedIn: linkedin.com/in/sneha</p>
+    <p>GitHub: github.com/sneha</p>
+</section>
+
+<footer>
+    <p>© 2026 Sneha | ECE Portfolio</p>
+</footer>
+
+</body>
+</html>
